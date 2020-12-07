@@ -1,5 +1,5 @@
 def reverse_each_word(string)
   arr = string.lines.to_a()
-
-  arr.collect {|word| puts word }
+  results = []
+  arr.collect {|word| results << word.reverse }
 end
