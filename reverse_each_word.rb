@@ -3,6 +3,6 @@ def reverse_each_word(string)
   
   temp = arr.collect {|word| word.reverse }
   
-  temp
+  temp.to_s
   
 end
